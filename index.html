@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Bored?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.net.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.waves.min.js"></script>
+</head>
+
+<body>
+    <div id="back">
+        <header>
+            <h1 class="title">Bored?</h1>
+            <h3 class="description">Find Random activites to do when bored</h3>
+            <!-- <i id="icon" class="fa fa-cog" style="font-size:40px;color:rgb(255, 255, 255);"></i> -->
+            <div class="theme">
+                <div id="" class="group">
+                    <ul class="color-grid">
+                        <li class="color-option is-selected" data-color="#5B00B7" onclick="th1()"></li>
+                        <li class="color-option" data-color="#3a68b7" onclick="th2()"></li>
+                        <li class="color-option" data-color="#34b7b0" onclick="th3()"></li>
+                        <li class="color-option" data-color="#4f8f44" onclick="th4()"></li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+        <div class="midarea" id="main">
+            <button class="bubbly-button" id="bored-btn" value="Click" onclick="getActivity()">Click!</button>
+            <h1 id="display"></h1>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="theme.js"></script>
+
+</body>
+
+</html>
