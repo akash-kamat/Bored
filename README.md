@@ -12,4 +12,4 @@ https://www.boredapi.com/  For API
 
 >Screenshots
 
-<img src="https://i.ibb.co/tpv3X3T/bored1.png" width=100% alt="bored1" border="0">
+<img src="https://i.ibb.co/b5C7J7M/bored1.png" width=100% alt="bored1" border="0">
